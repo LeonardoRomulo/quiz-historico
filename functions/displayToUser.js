@@ -19,10 +19,12 @@ function exibirResultado(respostasCorretas) {
         console.log("OH NÃO! Tente mais uma vez. ");
     } else if (respostasCorretas >= 4 && respostasCorretas <= 6) {
         console.log("BOM TRABALHO! Pratique um pouco mais. ");
+
     } else if (respostasCorretas >= 7 && respostasCorretas <= 9) {
-        console.log(" 	MUITO BOM! Você acertou a maioria. ");
+        console.log("MUITO BOM! Você acertou a maioria. ")
+
     } else {
-        console.log(" EXCELENTE! Você é um verdadeiro expert. ")
+        console.log("EXCELENTE! Você é um verdadeiro expert. ");
     }
 }
 
